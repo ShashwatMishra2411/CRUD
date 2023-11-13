@@ -1,0 +1,13 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+}
+.enter{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
