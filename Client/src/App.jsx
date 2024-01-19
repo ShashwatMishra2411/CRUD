@@ -12,7 +12,7 @@ export default function App() {
 
   useEffect(()=>{
     const fetch = async ()=>{
-        const res = await axios.get('http://localhost:5000/users');
+        const res = await axios.get('https://silver-seahorse-202ee5.netlify.app/users');
         setUsers(res.data);
         console.log(render)
         console.log(res.data)
